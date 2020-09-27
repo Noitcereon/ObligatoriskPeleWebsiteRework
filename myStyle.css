@@ -1,0 +1,60 @@
+body{
+    background-color:#CCFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+.class-item{
+    border-bottom:1px solid black;
+    margin:10px 0px;
+    padding:10px 0px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-size:16px;
+    font-weight:bold;
+}
+header{
+    border-bottom:1px;
+    border-top:1px;
+    border-right:0px;
+    border-left:0px;
+    border-style: solid;
+    padding:5px;
+    margin:5px;
+}
+#wrapper{
+    background-color:rgba(0, 0, 0, 0.3)
+}
+.semester-plan-link{
+    font-size:20px;
+}
+footer{
+    padding:20px 0px;
+}
+
+@media only screen and (max-width:680px){
+    h1{
+        font-size:28px;
+    }
+    h2{ font-size: 26px}
+    header div:last-child{
+        text-align: center;
+        align-self: start;
+    }
+    header img{
+        width:100%;
+    }
+    .class-item p:first-child{
+        min-height:50px;
+        padding:5px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .class-item img{
+        display:none;
+    }
+    
+}
